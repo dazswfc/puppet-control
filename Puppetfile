@@ -17,18 +17,18 @@ mod "puppetlabs/java",	      '1.6.0'
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
 #  :branch => 'docs_experiment'
 
-mode 'ssh',
-  :git => 'https://github.com/dazswfc/puppet-ssh.git'
+mod 'ssh',
+  :git => 'https://github.com/dazswfc/puppet-ssh.git',
+  :ref => 'master',
+
+mod 'ntp',
+  :git => 'https://github.com/dazswfc/puppet-ntp.git',
   :ref => 'master'
 
-mode 'ntp',
-  :git => 'https://github.com/dazswfc/puppet-ntp.git'
+mod 'role',
+  :git => 'https://github.com/dazswfc/puppet-role.git',
   :ref => 'master'
 
-mode 'role',
-  :git => 'https://github.com/dazswfc/puppet-role.git'
-  :ref => 'master'
-
-mode 'profile',
-  :git => 'https://github.com/dazswfc/puppet-profile.git'
+mod 'profile',
+  :git => 'https://github.com/dazswfc/puppet-profile.git',
   :ref => 'master'
