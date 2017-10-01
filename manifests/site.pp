@@ -32,5 +32,5 @@ node default {
 }
 
 node client.localdomain {
-  include role::nginx
+  include nginx
 }
