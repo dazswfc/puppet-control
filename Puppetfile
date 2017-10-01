@@ -32,3 +32,8 @@ mod 'role',
 mod 'profile',
   :git => 'https://github.com/dazswfc/puppet-profile.git',
   :ref => 'master'
+
+
+mod 'nginx',
+  :git => 'https://github.com/dazswfc/puppet-nginx.git',
+  :ref => 'master'
